@@ -1,0 +1,92 @@
+html {
+  background-color: #f2f2f2;
+  font-family: sans-serif;
+}
+
+.landing .grid {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.logo {
+  width: 6rem;
+  height: 6rem;
+}
+
+.current {
+  border-bottom: .3rem solid #C1272D;
+}
+
+.carousel {
+  height: calc(100vh - 14rem);
+  background-image: url("../images/bg.jpg");
+  background-position: left;
+  background-size: cover;
+}
+
+.landing {
+  height: 100vh;
+  padding-bottom: 7rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #9d9d9d;
+}
+
+.title {
+  z-index: 1;
+  padding: 4rem;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-90%);
+
+}
+
+.thumbnail {
+  width: 30rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-48%);
+  z-index: 2;
+}
+
+.about {
+  height: 100vh;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.about-content {
+  height: calc(100vh - 14rem);
+  background-color: #E2E2E2;
+}
+
+.about-content p {
+  color: #212121;
+}
+
+.about-content p:nth-child(2) {
+  border-left: .5rem solid #C1272D;
+  padding-left: .75rem;
+  margin-top: .75rem;
+  margin-bottom: .75rem;
+  max-width: 30rem;
+  margin: auto;
+}
+
+header {
+  background-color: #212121;
+}
+
+.header-img {
+  width: 30rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-115%);
+  z-index: 2;
+}
