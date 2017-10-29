@@ -5,6 +5,12 @@ html {
   font-weight: 400;
 }
 
+/*Carousel CSS*/
+
+
+
+/*End Carousel CSS*/
+
 .logo {
   width: 6rem;
   height: 6rem;
@@ -81,6 +87,18 @@ header {
   top: 2rem;
   transform: translateX(-50%);
   z-index: 2;
+}
+
+.portfolio-section {
+  background-color: #E4E5E5;
+}
+
+footer {
+  background-color: #212121;
+}
+
+footer small {
+  color: #f2f2f2;
 }
 
 @media only screen and (min-width: 38em) {
